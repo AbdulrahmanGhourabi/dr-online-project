@@ -9,21 +9,41 @@ Dr.Online is a React-based web application for doctors and patients. Doctors can
 ## Setup Instructions
 
 1. Clone the repository:
-   ```bash
+     ```bash
    
-   git clone https://github.com/AbdulrahmanGhourabi/dr-online-project.git
+    git clone https://github.com/AbdulrahmanGhourabi/dr-online-project.git
 
-2.Navigate into the project folder:
+2. Navigate into the project folder:
 
-   cd dr-online
+    cd dr-online
 
-3.Install dependencies:
+3. Install dependencies:
 
     npm install
 
 4. Start the development server:
    
     npm start
+
+
+
+
+##Screenshots of the UI :
+
+
+Home Page Screenshot:
+
+![Screenshot](HomePage.png)
+Log in error leading to Sign Up Screenshot :
+
+![Screenshot](ToSignUp.png)
+
+Discussions Screenshot, the private and the public
+
+
+![Screenshot](Discussions.png)
+
+
 
 
 
