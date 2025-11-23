@@ -1,0 +1,118 @@
+/* General background and font */
+body, html, #root {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1c1c1c; /* dark background */
+    color: #f5f5f5; /* light text */
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    color: #00d4ff; /* cyan accent */
+}
+
+/* Buttons */
+button, .btn, .btn-outline {
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Solid buttons */
+button, .btn {
+    background-color: #00d4ff;
+    color: #1c1c1c;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+button:hover, .btn:hover {
+    background-color: #00a0bf;
+}
+
+/* Outline buttons */
+.btn-outline {
+    background-color: transparent;
+    color: #00d4ff;
+    border: 2px solid #00d4ff;
+}
+
+.btn-outline:hover {
+    background-color: #00d4ff;
+    color: #1c1c1c;
+}
+
+/* Inputs and textareas */
+input, textarea {
+    background-color: #2a2a2a;
+    color: #f5f5f5;
+    border-radius: 8px;
+    border: 1px solid #444;
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #aaa;
+}
+
+/* Cards (topics, replies, studies) */
+.topic-card, .reply-card, .study-card {
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+
+.author {
+    font-weight: bold;
+    color: #00d4ff;
+}
+
+/* Forms container */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Home page sections */
+.home div {
+    margin-bottom: 40px;
+}
+
+/* Search input */
+input[type="search"] {
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    font-size: 1rem;
+    width: 250px;
+    background-color: #2a2a2a;
+    color: #f5f5f5;
+}
+
+/* Discussion page */
+.topics-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Hover effect for cards */
+.topic-card:hover, .study-card:hover {
+    background-color: #333333;
+    transform: translateY(-2px);
+    transition: all 0.2s ease-in-out;
+}
+
+/* Centered pages */
+.page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}

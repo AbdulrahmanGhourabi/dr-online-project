@@ -1,0 +1,36 @@
+.login {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #f0f8ff;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.login h2 {
+  margin-bottom: 20px;
+  color: #2a9d8f;
+}
+
+.login p {
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.login-buttons button {
+  width: 180px;
+  margin: 10px;
+  padding: 12px 0;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  background: #2a9d8f;
+  transition: 0.3s;
+}
+
+.login-buttons button:hover {
+  background: #21867a;
+}
